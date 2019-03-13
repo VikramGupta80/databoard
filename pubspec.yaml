@@ -1,0 +1,32 @@
+name: databoard
+description: A DataBoard like Flutter application
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  http: any
+  rxdart: ^0.18.0
+  shared_preferences: ^0.4.2
+  url_launcher: ^3.0.0
+  flutter_launcher_icons: ^0.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/1x1_transparent.png
+    - assets/images/databoard_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/databoard_logo_600.png"
+  adaptive_icon_background: "#039BE5"
+  adaptive_icon_foreground: "assets/images/databoard_logo_transparent.png"

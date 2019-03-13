@@ -1,0 +1,1 @@
+String NEWSAPI_KEY = "e78f9f507f8f4fb2a86463dae1266d07";
